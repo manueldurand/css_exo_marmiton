@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-image: url(https://assets.afcdn.com/recipe/20200826/113289_w1000h667c1cx3000cy2000cxb6000cyb4000.webp);
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 380px;
+    height: 450px;
+    background-color: #e8e8e8;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #e2dada;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(228, 142, 50);
+    background-color: #fff;
+    border-radius: 25px 0 0 25px;
+    width: 38%;
+    padding: 12px 5px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-align: right;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px 15px 40px 40px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.coeur {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    /* position:absolute;
+    bottom:100px;
+    left:190px; */
+    /* background: url('https://api.iconify.design/cil/heart.svg?color=%23be4d25') no-repeat center center / contain; */
+}
+
+.coeur::after {
+    content: url('https://api.iconify.design/cil/heart.svg?color=%23be4d25&width=50&height=50');
+    position: relative;
+    left: 15px;
+    top: 15px;
+    z-index: 1;
+
+}
